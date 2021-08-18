@@ -1,0 +1,29 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghaidaamoh/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghaidaamoh/api-server/issues"
+  },
+  "homepage": "https://github.com/Ghaidaamoh/api-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "dots-config": "^2.1.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "sequelize": "^6.6.5",
+    "supertest": "^6.1.6"
+  }
+}
